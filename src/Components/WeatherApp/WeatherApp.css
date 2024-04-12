@@ -1,11 +1,24 @@
-.container{
-    width: 500px;
-    height: 800 px;
-    margin: auto;
-    margin-top: 75px;
-    border-radius: 12px;
-    background-image: linear-gradient(180deg,rgb(15, 55, 235) 0%, rgb(96, 103, 170) 100%);
+.heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff6600;
+    text-transform: uppercase;
 }
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background: #FFF url('C:\Users\hp\Desktop\Projects\weather_app\src\Components\assests\background.png') center/cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 105px;
+}
+
 
 
 .top-bar{
@@ -16,20 +29,20 @@
 
 }
 
-
-.top-bar input{
-    display: flex;
-    width: 362px;
-    height: 78px;
-    background: white;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    padding-left: 40px;
-    color: rgb(65, 3, 3);
-    font-size: 20px;
-    font-weight: 400;
-}
+.top-bar input {
+        display: flex;
+        width: 362px;
+        height: 78px;
+        background: rgba(255, 255, 255, 0.5);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        padding-left: 40px;
+        padding-top:10;
+        color: rgb(14, 13, 13);
+        font-size: 20px;
+        font-weight: 400;
+    }
 
 
 .weather-image{
@@ -41,9 +54,10 @@
 
 
 .weather-temp{
+    padding-top: 1px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(233, 224, 224);
     font-size: 120px;
     font-weight: 400;
 }
@@ -52,14 +66,14 @@
 .weather-location{
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(244, 239, 239);
     font-size: 60px;
     font-weight: 400;
 }
 
 .data-container{
     margin-top: 50px;
-    color: white;
+    color: rgb(241, 240, 240);
     display: flex;
     justify-content: center;
 }
@@ -88,12 +102,12 @@
 }
 
 .SearchImg{
-    width: 70px;
+    width: 50px;
     padding-top: 5px;
 }
 .cloudImg{
     width: 150px;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 
